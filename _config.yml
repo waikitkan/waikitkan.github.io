@@ -1,0 +1,7 @@
+# Site settings
+title: Jian Wei Jie
+description: All My Thoughts Are Belong To You
+baseurl: ""
+
+# Build settings
+markdown: kramdown
