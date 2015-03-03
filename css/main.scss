@@ -78,7 +78,7 @@ ul li {
   width: 40px;
 }
 .main-header .btn {
-  position: absolute;
+  position: fixed;
   top: 20px;
   right: 20px;
   border: 1px solid #4a4a4a;
@@ -86,6 +86,10 @@ ul li {
   font-size: 14px;
   padding: 5px 10px;
   border-radius: 3px;
+  
+  @media screen and (max-width: 600px) {
+    position: absolute;
+  }
 }
 .main-header .btn:hover,
 .main-header .btn:focus {
