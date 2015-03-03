@@ -1,0 +1,11 @@
+///// Truncate
+
+// Can set max-width instead of width but the limitation is that the value must be em, rem, or px; never percent
+// Therefore doesn't work so well for resizing as max-width is set at absolute value
+
+.truncate {
+  width:100%;
+  white-space:nowrap !important;
+  overflow:hidden !important;
+  text-overflow:ellipsis !important;
+}
