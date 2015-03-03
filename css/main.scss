@@ -115,6 +115,9 @@ ul li {
 .main-nav li {
   margin-bottom: 20px;
 }
+.main-nav a {
+  text-transform: capitalize;
+}
 
 article header {
   margin-bottom: 40px;
@@ -122,14 +125,6 @@ article header {
 article header .date {
   text-align: center;
   display: block;
-}
-
-.list {
-  list-style: none;
-  padding: 0;
-}
-.list li {
-  margin-bottom: 20px;
 }
 
 ol .date {
